@@ -1,0 +1,143 @@
+{
+    "query": "ăn",
+    "pairs": [
+        {
+            "pair_id": 1,
+            "document_i": "Ăn quả nhớ kẻ trồng cây",
+            "document_j": "Anh em bốn bể là nhà Người dưng khác họ vẫn là anh em",
+            "pij": 1
+        },
+        {
+            "pair_id": 2,
+            "document_i": "Ăn quả nhớ kẻ trồng cây",
+            "document_j": "Ăn vóc học hay.",
+            "pij": 0
+        },
+        {
+            "pair_id": 3,
+            "document_i": "Ăn quả nhớ kẻ trồng cây",
+            "document_j": "Anh em nào phải người xa, Cùng chung bác mẹ một nhà cùng thân.",
+            "pij": 1
+        },
+        {
+            "pair_id": 4,
+            "document_i": "Ăn quả nhớ kẻ trồng cây",
+            "document_j": "Anh em như thể chân tay Rách lành đùm bọc, dở hay đỡ đần",
+            "pij": 1
+        },
+        {
+            "pair_id": 5,
+            "document_i": "Ăn quả nhớ kẻ trồng cây",
+            "document_j": "Anh đi anh nhớ quê nhà Nhớ canh rau muống nhớ cà dầm tương",
+            "pij": 1
+        },
+        {
+            "pair_id": 6,
+            "document_i": "Ăn quả nhớ kẻ trồng cây",
+            "document_j": "Ai giàu ba họ, ai khó ba đời",
+            "pij": 1
+        },
+        {
+            "pair_id": 7,
+            "document_i": "Ăn quả nhớ kẻ trồng cây",
+            "document_j": "Áo năng thay năng mới, người năng tới năng thân",
+            "pij": 1
+        },
+        {
+            "pair_id": 8,
+            "document_i": "Ăn quả nhớ kẻ trồng cây",
+            "document_j": "Ao sâu tốt cá",
+            "pij": 1
+        },
+        {
+            "pair_id": 9,
+            "document_i": "Anh em bốn bể là nhà Người dưng khác họ vẫn là anh em",
+            "document_j": "Ăn trông nồi, ngồi trông hướng",
+            "pij": 0
+        },
+        {
+            "pair_id": 10,
+            "document_i": "Anh em bốn bể là nhà Người dưng khác họ vẫn là anh em",
+            "document_j": "Ăn vóc học hay.",
+            "pij": 0
+        },
+        {
+            "pair_id": 11,
+            "document_i": "Ăn trông nồi, ngồi trông hướng",
+            "document_j": "Ăn vóc học hay.",
+            "pij": 0
+        },
+        {
+            "pair_id": 12,
+            "document_i": "Ăn trông nồi, ngồi trông hướng",
+            "document_j": "Anh em nào phải người xa, Cùng chung bác mẹ một nhà cùng thân.",
+            "pij": 1
+        },
+        {
+            "pair_id": 13,
+            "document_i": "Ăn trông nồi, ngồi trông hướng",
+            "document_j": "Anh em như thể chân tay Rách lành đùm bọc, dở hay đỡ đần",
+            "pij": 1
+        },
+        {
+            "pair_id": 14,
+            "document_i": "Ăn trông nồi, ngồi trông hướng",
+            "document_j": "Anh đi anh nhớ quê nhà Nhớ canh rau muống nhớ cà dầm tương",
+            "pij": 1
+        },
+        {
+            "pair_id": 15,
+            "document_i": "Ăn trông nồi, ngồi trông hướng",
+            "document_j": "Ai giàu ba họ, ai khó ba đời",
+            "pij": 1
+        },
+        {
+            "pair_id": 16,
+            "document_i": "Ăn trông nồi, ngồi trông hướng",
+            "document_j": "Áo năng thay năng mới, người năng tới năng thân",
+            "pij": 1
+        },
+        {
+            "pair_id": 17,
+            "document_i": "Ăn trông nồi, ngồi trông hướng",
+            "document_j": "Ao sâu tốt cá",
+            "pij": 1
+        },
+        {
+            "pair_id": 18,
+            "document_i": "Ăn vóc học hay.",
+            "document_j": "Anh em nào phải người xa, Cùng chung bác mẹ một nhà cùng thân.",
+            "pij": 1
+        },
+        {
+            "pair_id": 19,
+            "document_i": "Ăn vóc học hay.",
+            "document_j": "Anh em như thể chân tay Rách lành đùm bọc, dở hay đỡ đần",
+            "pij": 1
+        },
+        {
+            "pair_id": 20,
+            "document_i": "Ăn vóc học hay.",
+            "document_j": "Anh đi anh nhớ quê nhà Nhớ canh rau muống nhớ cà dầm tương",
+            "pij": 1
+        },
+        {
+            "pair_id": 21,
+            "document_i": "Ăn vóc học hay.",
+            "document_j": "Ai giàu ba họ, ai khó ba đời",
+            "pij": 1
+        },
+        {
+            "pair_id": 22,
+            "document_i": "Ăn vóc học hay.",
+            "document_j": "Áo năng thay năng mới, người năng tới năng thân",
+            "pij": 1
+        },
+        {
+            "pair_id": 23,
+            "document_i": "Ăn vóc học hay.",
+            "document_j": "Ao sâu tốt cá",
+            "pij": 1
+        }
+    ]
+}
