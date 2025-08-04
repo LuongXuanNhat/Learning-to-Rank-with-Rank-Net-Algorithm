@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "value": "Ăn quả nhớ kẻ trồng cây"
+  },
+  {
+    "id": 2,
+    "value": "Anh em bốn bể là nhà Người dưng khác họ vẫn là anh em"
+  },
+  {
+    "id": 3,
+    "value": "Ăn trông nồi, ngồi trông hướng"
+  },
+  {
+    "id": 4,
+    "value": "Ăn vóc học hay."
+  },
+  {
+    "id": 5,
+    "value": "Anh em nào phải người xa, Cùng chung bác mẹ một nhà cùng thân."
+  },
+  {
+    "id": 6,
+    "value": "Anh em như thể chân tay Rách lành đùm bọc, dở hay đỡ đần"
+  },
+  {
+    "id": 7,
+    "value": "Anh đi anh nhớ quê nhà Nhớ canh rau muống nhớ cà dầm tương"
+  },
+  {
+    "id": 8,
+    "value": "Ai giàu ba họ, ai khó ba đời"
+  },
+  {
+    "id": 9,
+    "value": "Áo năng thay năng mới, người năng tới năng thân"
+  },
+  {
+    "id": 10,
+    "value": "Ao sâu tốt cá"
+  },
+  {
+    "id": 11,
+    "value": "Ăn được ngủ được là tiên"
+  },
+  {
+    "id": 12,
+    "value": "Ân cha nặng lắm cha ơi! Nghĩa mẹ bằng trời chín tháng cưu mang."
+  },
+  {
+    "id": 13,
+    "value": "Ai đi Uông Bí, Vàng Danh Má hồng để lại má xanh mang về."
+  },
+  {
+    "id": 14,
+    "value": "Ai về đến huyện Đông Anh, Ghé xem phong cảnh Loa Thành Thục Vương."
+  },
+  {
+    "id": 15,
+    "value": "Ăn cây nào rào cây ấy."
+  },
+  {
+    "id": 16,
+    "value": "Áo rách thay vai, quần rách đổi ống"
+  },
+  {
+    "id": 17,
+    "value": "Ai đi cách trở sơn khê, Nhớ tô mì Quảng, tình quê mặn nồng."
+  },
+  {
+    "id": 18,
+    "value": "Ai làm cho bướm lìa hoa, Cho chim xanh nỡ bay qua vườn hồng"
+  },
+  {
+    "id": 19,
+    "value": "Ăn kĩ no lâu, cày sâu tốt lúa"
+  },
+  {
+    "id": 20,
+    "value": "Ai chồng ai vợ mặc ai, Bao giờ ra bảng ra bài mới hay."
+  },
+  {
+    "id": 21,
+    "value": "Ai ơi đừng bỏ ruộng hoang Bao nhiêu tấc đất, tấc vàng bấy nhiêu"
+  },
+  {
+    "id": 22,
+    "value": "Ăn bát cơm dẻo, nhớ nẻo đường đi"
+  },
+  {
+    "id": 23,
+    "value": "Ai biết sông Lam Răng là trong, là đục?"
+  },
+  {
+    "id": 24,
+    "value": "Anh em thuận hòa là nhà có phúc."
+  },
+  {
+    "id": 25,
+    "value": "Ăn cơm với cá mòi he, Lấy chồng Cẩm Phả đun xe suốt đời."
+  },
+  {
+    "id": 26,
+    "value": "Áo chân cáy, váy chân sứa"
+  },
+  {
+    "id": 27,
+    "value": "Ăn bún thang, cả làng đòi cà cuống"
+  },
+  {
+    "id": 28,
+    "value": "Ăn lấy chắc, mặc lấy bền"
+  },
+  {
+    "id": 29,
+    "value": "Anh đi đàng ấy xa xa, Để em ôm bóng trăng tà năm canh"
+  },
+  {
+    "id": 30,
+    "value": "Anh về Bình Định thăm cha, Phú Yên thăm mẹ, Khánh Hòa thăm em."
+  },
+  {
+    "id": 31,
+    "value": "Ăn như hùm đổ đó"
+  },
+  {
+    "id": 32,
+    "value": "Ai ơi chớ vội cười nhau, Ngẫm mình cho kỹ trước sau hãy cười"
+  },
+  {
+    "id": 33,
+    "value": "Anh em như thể tay chân."
+  },
+  {
+    "id": 34,
+    "value": "Ai đua sông Trước thì đua Sông Sau có miếu thờ vua thì đừng"
+  },
+  {
+    "id": 35,
+    "value": "Ăn ốc trông trăng"
+  },
+  {
+    "id": 36,
+    "value": "Ăn một miếng tiếng một đời"
+  },
+  {
+    "id": 37,
+    "value": "Ăn thì ăn những miếng ngon Làm thì chọn việc cỏn con mà làm."
+  },
+  {
+    "id": 38,
+    "value": "Ai qua phố Nhổn phố Lai Dừng chân ăn miếng chả đài thơm ngon"
+  },
+  {
+    "id": 39,
+    "value": "Ai về nhắn với ông câu, Cá ăn thì giật, để lâu mất mồi"
+  },
+  {
+    "id": 40,
+    "value": "Ăn cá nhả xương, ăn đường nuốt chậm"
+  },
+  {
+    "id": 41,
+    "value": "Ăn có mời, làm có khiến"
+  },
+  {
+    "id": 42,
+    "value": "Ăn lắm thì hết miếng ngon, nói lắm thì hết lời khôn hóa rồ"
+  },
+  {
+    "id": 43,
+    "value": "Anh em trong nhà, đóng cửa dạy nhau"
+  },
+  {
+    "id": 44,
+    "value": "Ai đi muôn dặm non sông, Để ai chứa chất sầu đong vơi đầy."
+  },
+  {
+    "id": 45,
+    "value": "Ai đi trẩy hội chùa Hương Làm ơn gặp khách thập phương hỏi giùm"
+  },
+  {
+    "id": 46,
+    "value": "Ai lên Đồng Tỉnh, Huê Cầu Đồng Tỉnh bán thuốc, Huê Cầu nhuộm thâm"
+  },
+  {
+    "id": 47,
+    "value": "Ai ơi chẳng chóng thì chầy Có công mài sắt, có ngày nên kim."
+  },
+  {
+    "id": 48,
+    "value": "Ai về em gửi bức tranh, Có con chim sáo đậu nhành lan chi"
+  },
+  {
+    "id": 49,
+    "value": "Anh về cuốc đất trồng cau, Cho em trồng ghé cây trầu một bên"
+  },
+  {
+    "id": 50,
+    "value": "Ai lên Phú Thọ thì lên Lên non cổ tích, lên đền Hùng Vương"
+  },
+  {
+    "id": 51,
+    "value": "Ăn cho đều, kêu cho sòng"
+  },
+  {
+    "id": 52,
+    "value": "Ăn lúc đói, nói lúc say"
+  },
+  {
+    "id": 53,
+    "value": "Ăn như mèo ăn"
+  },
+  {
+    "id": 54,
+    "value": "Ăn quả nhớ kẻ trồng cây Có danh có vọng nhớ thầy khi xưa."
+  },
+  {
+    "id": 55,
+    "value": "Ăn se sẻ, đẻ con voi"
+  },
+  {
+    "id": 56,
+    "value": "Ai là con cháu Rồng Tiên, Tháng hai mở hội Trường Yên thì về."
+  },
+  {
+    "id": 57,
+    "value": "Ai về Hà Tĩnh thì về, Mặc lụa chợ Hạ, uống chè Hương Sơn."
+  },
+  {
+    "id": 58,
+    "value": "Ai về Thọ Lão hát chèo, Có thương lấy phận nàng Kiều thì thương."
+  },
+  {
+    "id": 59,
+    "value": "Anh em hiền thật là hiền Chỉ một đồng tiền làm mất lòng nhau"
+  },
+  {
+    "id": 60,
+    "value": "Anh em như chân với tay Rách lành đùm bọc, dở hay đỡ đần."
+  },
+  {
+    "id": 61,
+    "value": "Anh thương em ruột thắt gan bào, Biết em có thương lại chút nào hay không?"
+  },
+  {
+    "id": 62,
+    "value": "Ai lên làng Quỷnh hái chè, Hái dăm ba lá xuống khe ta ngồi."
+  },
+  {
+    "id": 63,
+    "value": "Ai lên nhắn chị hàng bông, Có muốn lấy chồng thì xuống Nguyệt Viên"
+  },
+  {
+    "id": 64,
+    "value": "Ai ơi cứ ở cho lành, Tu thân tích đức để dành về sau."
+  },
+  {
+    "id": 65,
+    "value": "Ai về nhớ vải Định Hòa, Nhớ cau Hổ Bái, nhớ cà Đan Nê"
+  },
+  {
+    "id": 66,
+    "value": "Ăn cá trắm, uống rượu tăm, vật trăm trận"
+  },
+  {
+    "id": 67,
+    "value": "Ăn có nơi, làm có buổi"
+  },
+  {
+    "id": 68,
+    "value": "Anh em khúc ruột chia hai, Mạch còn máu chảy đứt ngoài liền trong."
+  },
+  {
+    "id": 69,
+    "value": "Ai đi qua phố Khoa Trường Dừng chân ngắm cảnh núi rừng xanh xanh"
+  },
+  {
+    "id": 70,
+    "value": "Ai về Phú Thọ cùng ta, Vui ngày giỗ tổ tháng ba mùng mười."
+  },
+  {
+    "id": 71,
+    "value": "Ăn chẳng bõ dính răng"
+  },
+  {
+    "id": 72,
+    "value": "Ăn cỗ nắm phần"
+  },
+  {
+    "id": 73,
+    "value": "Ăn cơm không canh như tu hành không vãi"
+  },
+  {
+    "id": 74,
+    "value": "Ăn thịt trâu không tỏi, như ăn gỏi không lá mơ"
+  },
+  {
+    "id": 75,
+    "value": "Anh em như thể chân tay Cùng cha cùng mẹ việc nhà hăng say"
+  },
+  {
+    "id": 76,
+    "value": "Ai ơi trẻ mãi ru mà! Càng đo đắn lắm càng già mất duyên."
+  },
+  {
+    "id": 77,
+    "value": "Anh em giọt máu sẻ đôi."
+  },
+  {
+    "id": 78,
+    "value": "Ai ơi, gương bể khó hàn, Chỉ đứt khó nối, người ngoan khó tìm"
+  },
+  {
+    "id": 79,
+    "value": "Ai qua Phú Hội, Phước Thiền, Bâng khuâng nhớ mãi sầu riêng Long Thành."
+  },
+  {
+    "id": 80,
+    "value": "Ai về thăm đất Ninh Bình, Mà xem phong cảnh hữu tình nên thơ"
+  },
+  {
+    "id": 81,
+    "value": "Ân cha nghĩa mẹ chưa đền, Bậu mong ôm gối cuốn mền theo ai?"
+  },
+  {
+    "id": 82,
+    "value": "Ăn cơm cũng thấy nghẹn, Uống nước cũng thấy nghẹn,"
+  },
+  {
+    "id": 83,
+    "value": "Anh em ăn ở thuận hoà Chớ điều chếch lệch người ta chê cười"
+  },
+  {
+    "id": 84,
+    "value": "Anh em cốt nhục đồng bào, Vợ chồng là nghĩa lẽ nào chẳng thương."
+  },
+  {
+    "id": 85,
+    "value": "Ai kêu ai hú bên sông, Tôi đang sắm sửa cho chồng xuống ghe"
+  },
+  {
+    "id": 86,
+    "value": "Ai về thăm chợ Năm Dân, Kim Sơn vùng biển xa gần nức danh."
+  },
+  {
+    "id": 87,
+    "value": "Ai về Tuy Phước ăn nem, Ghé qua Hưng Thạnh mà xem Tháp Chàm."
+  },
+  {
+    "id": 88,
+    "value": "Ăn ít ngon nhiều"
+  },
+  {
+    "id": 89,
+    "value": "Ai về chợ huyện Thanh Vân Hỏi thăm cô Tú đánh vần được chưa?"
+  },
+  {
+    "id": 90,
+    "value": "Ai về Hậu Lộc Phú Điền, Nhớ đây Bà Triệu trận tiền xung phong."
+  },
+  {
+    "id": 91,
+    "value": "Ai về Xuân Vũ, Ninh Vân, Làng nghề chạm đá xa gần nức danh"
+  },
+  {
+    "id": 92,
+    "value": "Áo nhung cởi lại Linh San, Thoắt đà thoát nợ trần hoàn lên tiên."
+  },
+  {
+    "id": 93,
+    "value": "Áo rách cốt cách người thương"
+  },
+  {
+    "id": 94,
+    "value": "Ai về Hồng Lộc thì về Ăn cơm cá Bàu Nậy"
+  },
+  {
+    "id": 95,
+    "value": "Ai về Nhượng Bạn thì về, Gạo nhiều, cá lắm, dễ bề làm ăn."
+  },
+  {
+    "id": 96,
+    "value": "Ăn cỗ là việc tổ làng"
+  },
+  {
+    "id": 97,
+    "value": "Ăn không thì hóc, chẳng xay thóc phải ẵm em"
+  },
+  {
+    "id": 98,
+    "value": "Anh đi làm mướn nuôi ai, Cho áo anh rách, cho vai anh mòn?"
+  },
+  {
+    "id": 99,
+    "value": "Anh về, em nắm cổ tay Em dặn câu này, anh chớ có quên:"
+  },
+  {
+    "id": 100,
+    "value": "Ăn mặn, uống nước đỏ da Nằm đất nằm cát cho ma nó hờn."
+  }
+]

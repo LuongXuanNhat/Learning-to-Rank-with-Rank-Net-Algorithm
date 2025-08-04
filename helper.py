@@ -16,11 +16,40 @@ def load_documents_from_json(documents_path):
 
 # Hàm tính điểm liên quan dựa trên TF-IDF của từ được truy vấn
 def relevance_score_tfidf(tfidf_matrix, vocab, query, doc_idx):
-    query = query.lower()
-    if query in vocab:
-        query_idx = vocab.index(query)  # Lấy chỉ số của từ được truy vấn trong từ điển
-        return tfidf_matrix[doc_idx][query_idx]  # Giá trị TF-IDF của từ được truy vấn trong tài liệu
-    return 0
+    """
+    Tính điểm liên quan của tài liệu dựa trên query.
+    Nếu query có nhiều từ, sẽ tách và tính tổng điểm TF-IDF của các từ.
+    
+    Args:
+        tfidf_matrix: Ma trận TF-IDF
+        vocab: Từ điển các từ
+        query: Chuỗi truy vấn (có thể có nhiều từ)
+        doc_idx: Index của tài liệu
+    
+    Returns:
+        float: Tổng điểm TF-IDF của các từ trong query
+    """
+    query = query.lower().strip()
+    
+    # Tách query thành các từ riêng lẻ
+    query_words = query.split()
+    
+    total_score = 0.0
+    found_words = 0
+    
+    for word in query_words:
+        word = word.strip()  # Loại bỏ khoảng trắng thừa
+        if word and word in vocab:  # Kiểm tra từ không rỗng và có trong vocab
+            word_idx = vocab.index(word)
+            word_score = tfidf_matrix[doc_idx][word_idx]
+            total_score += word_score
+            found_words += 1
+    
+    # Có thể trả về điểm trung bình thay vì tổng
+    # return total_score / len(query_words) if len(query_words) > 0 else 0
+    
+    # Hoặc trả về tổng điểm (như hiện tại)
+    return total_score
 
 def ranknet_loss(s_i, s_j, P_ij):
     diff = s_i - s_j

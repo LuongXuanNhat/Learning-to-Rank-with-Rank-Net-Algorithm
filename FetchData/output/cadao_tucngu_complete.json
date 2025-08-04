@@ -3606,5 +3606,114 @@
   {
     "id": 902,
     "value": "Yêu nhau gánh gạch về xây, Chẳng đắp nên núi cũng quây nên thành."
+  },
+  { "id": 903, "value": "Ăn cỗ đi trước, lội nước đi sau" },
+  { "id": 904, "value": "Ăn kỹ no lâu, cày sâu tốt lúa" },
+  { "id": 905, "value": "Ăn cây nào, rào cây đó" },
+  { "id": 906, "value": "Ăn khoai nhớ kẻ cho dây mà trồng" },
+  { "id": 907, "value": "Ăn cháo đá bát" },
+  { "id": 908, "value": "Ăn cơm mới, nói chuyện cũ" },
+  { "id": 909, "value": "Ăn quả nhớ kẻ trồng cây" },
+  {
+    "id": 910,
+    "value": "Áo anh sứt chỉ đường tà Vợ anh chưa có, mẹ già chưa khâu"
+  },
+  { "id": 911, "value": "Bán rẻ người quen, mua đắt người lạ" },
+  { "id": 912, "value": "Bán rẻ bạn bè, mua đắt kẻ thù" },
+  { "id": 913, "value": "Bênh lý không bênh thân" },
+  { "id": 914, "value": "Bốn bể mười nhà" },
+  { "id": 915, "value": "Ba mặt một lời" },
+  { "id": 916, "value": "Bắt cá hai tay" },
+  { "id": 917, "value": "Bé không vin, lớn cả gãy cành" },
+  { "id": 918, "value": "Bé cái nhầm, lớn cái hỏng" },
+  { "id": 919, "value": "Bán buôn là bạn, làm ăn là thù" },
+  { "id": 920, "value": "Bán quạt mùa đông, mua bông mùa hè" },
+  { "id": 921, "value": "Cá không ăn muối cá ươn" },
+  { "id": 922, "value": "Cẩn tắc vô áy náy" },
+  { "id": 923, "value": "Cây khô không lá, người dại không ai" },
+  { "id": 926, "value": "Cơm cha, áo mẹ, chữ thầy" },
+  { "id": 927, "value": "Cá lớn nuốt cá bé" },
+  { "id": 928, "value": "Chó sủa là chó không cắn" },
+  { "id": 929, "value": "Chó sủa dại, người nói dai" },
+  { "id": 930, "value": "Chó sủa là nhà có khách" },
+  { "id": 931, "value": "Chó sủa là chó, người nói là người" },
+  { "id": 932, "value": "Chó sủa là chó không cắn, chó cắn là chó không sủa" },
+  { "id": 933, "value": "Chó sủa là chó, mèo kêu là mèo" },
+  { "id": 934, "value": "Gieo gió gặt bão, gieo nhân nào gặt quả ấy" },
+  {
+    "id": 935,
+    "value": "Gái có chồng như gông đeo cổ, gái không chồng như phản gỗ long đanh."
+  },
+  {
+    "id": 936,
+    "value": "Gió bấc hiu hiu, sếu kêu thì rét, gió nồm thổi nhẹ, chim kêu thì mưa"
+  },
+  {
+    "id": 937,
+    "value": "Gió đưa cành trúc la đà, Tiếng chuông Trấn Vũ canh gà Thọ Xương"
+  },
+  {
+    "id": 938,
+    "value": "Gái có công chồng chẳng phụ"
+  },
+  {
+    "id": 939,
+    "value": "Gái có công chồng chẳng phụ, trai có tài gái cũng nên duyên"
+  },
+  {
+    "id": 940,
+    "value": "Gái có công chồng chẳng phụ, trai có tài gái cũng nên vợ chồng"
+  },
+  {
+    "id": 941,
+    "value": "Gái ngoan không bằng trai khôn"
+  },
+  {
+    "id": 942,
+    "value": "Phận đàn em ăn thèm vác nặng."
+  },
+  {
+    "id": 943,
+    "value": "Giàu ăn ba bữa, khó cũng đỏ lửa ba lần."
+  },
+  {
+    "id": 944,
+    "value": "Giàu sang không bằng bạn hiền, nghèo hèn không bằng anh em một nhà"
+  },
+  {
+    "id": 945,
+    "value": "Giàu sang không bằng bạn hiền, nghèo hèn không bằng anh em một lòng"
+  },
+  {
+    "id": 946,
+    "value": "Giàu sang không bằng bạn tốt, nghèo hèn không bằng anh em một nhà"
+  },
+  {
+    "id": 947,
+    "value": "Giàu sang không bằng bạn tốt, nghèo hèn không bằng anh em một lòng"
+  },
+  {
+    "id": 948,
+    "value": "Giàu sang không bằng bạn thân, nghèo hèn không bằng anh em một nhà"
+  },
+  {
+    "id": 949,
+    "value": "Giàu sang không bằng bạn thân, nghèo hèn không bằng anh em một lòng"
+  },
+  {
+    "id": 950,
+    "value": "Giàu sang không bằng bạn bè, nghèo hèn không bằng anh em một nhà"
+  },
+  {
+    "id": 951,
+    "value": "Giàu sang không bằng bạn bè, nghèo hèn không bằng anh em một lòng"
+  },
+  {
+    "id": 952,
+    "value": "Giàu sang không bằng bạn hiền, nghèo hèn không bằng anh em một nhà"
+  },
+  {
+    "id": 953,
+    "value": "Giàu sang không bằng bạn hiền, nghèo hèn không bằng anh em một lòng"
   }
 ]
