@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng dẫn - Tìm kiếm Ca dao Tục ngữ</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4285f4;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #4285f4;
+            padding-bottom: 5px;
+        }
+
+        .step {
+            background: #f1f3f4;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #4285f4;
+        }
+
+        .command {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            margin: 10px 0;
+        }
+
+        .note {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+        .feature::before {
+            content: "✅";
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🔍 Hướng dẫn sử dụng Web tìm kiếm Ca dao - Tục ngữ</h1>
+
+        <h2>📋 Tổng quan</h2>
+        <p>Đây là ứng dụng web tìm kiếm ca dao, tục ngữ Việt Nam sử dụng thuật toán <strong>RankNet</strong> để xếp hạng
+            kết quả theo độ liên quan.</p>
+
+        <h2>🚀 Cách chạy ứng dụng</h2>
+
+        <div class="step">
+            <h3>Phương pháp 1: Chạy tự động (Khuyến nghị)</h3>
+            <p>Double-click vào file <code>start_web.bat</code> và chờ ứng dụng khởi động.</p>
+        </div>
+
+        <div class="step">
+            <h3>Phương pháp 2: Chạy thủ công</h3>
+            <p><strong>Bước 1:</strong> Mở Command Prompt trong thư mục dự án</p>
+            <div class="command">pip install -r requirements.txt</div>
+
+            <p><strong>Bước 2:</strong> Chạy ứng dụng</p>
+            <div class="command">python app.py</div>
+
+            <div class="note">
+                <strong>Lưu ý:</strong> Nếu <code>app.py</code> bị lỗi, hãy thử:
+                <div class="command">python app_simple.py</div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h3>Bước 3: Truy cập ứng dụng</h3>
+            <p>Mở trình duyệt và truy cập: <a href="http://localhost:5000" target="_blank">http://localhost:5000</a></p>
+        </div>
+
+        <h2>✨ Tính năng</h2>
+        <div class="feature">Giao diện tìm kiếm đẹp mắt như Google</div>
+        <div class="feature">Xếp hạng thông minh với thuật toán RankNet</div>
+        <div class="feature">Hiển thị điểm số liên quan cho mỗi kết quả</div>
+        <div class="feature">Làm nổi bật từ khóa tìm kiếm</div>
+        <div class="feature">Gợi ý từ khóa phổ biến</div>
+        <div class="feature">Thiết kế responsive, thân thiện với mobile</div>
+        <div class="feature">Thời gian tìm kiếm nhanh chóng</div>
+
+        <h2>🎯 Cách sử dụng</h2>
+        <ol>
+            <li><strong>Nhập từ khóa:</strong> Gõ từ khóa vào ô tìm kiếm (ví dụ: "ăn", "học", "làm")</li>
+            <li><strong>Tìm kiếm:</strong> Nhấn nút "Tìm kiếm" hoặc phím Enter</li>
+            <li><strong>Xem kết quả:</strong> Kết quả được hiển thị theo thứ tự điểm số từ cao đến thấp</li>
+            <li><strong>Thử gợi ý:</strong> Click vào các từ khóa gợi ý để tìm kiếm nhanh</li>
+        </ol>
+
+        <h2>📊 Giải thích điểm số</h2>
+        <p>Mỗi kết quả hiển thị một điểm số thể hiện mức độ liên quan:</p>
+        <ul>
+            <li><strong>Điểm cao (> 5.0):</strong> Rất liên quan đến từ khóa</li>
+            <li><strong>Điểm trung bình (1.0 - 5.0):</strong> Có liên quan</li>
+            <li><strong>Điểm thấp (< 1.0):</strong> Ít liên quan</li>
+        </ul>
+
+        <h2>🔧 Xử lý sự cố</h2>
+
+        <div class="error">
+            <strong>Lỗi: "Import flask could not be resolved"</strong><br>
+            ➡️ Chạy: <code>pip install flask torch numpy</code>
+        </div>
+
+        <div class="error">
+            <strong>Lỗi: "File not found"</strong><br>
+            ➡️ Kiểm tra file <code>cadao_tucngu_mini.json</code> trong thư mục <code>FetchData/output/</code>
+        </div>
+
+        <div class="error">
+            <strong>Không có kết quả tìm kiếm</strong><br>
+            ➡️ Thử từ khóa khác hoặc kiểm tra dữ liệu đầu vào
+        </div>
+
+        <div class="success">
+            <strong>Mẹo:</strong> Nếu gặp lỗi với <code>app.py</code>, hãy sử dụng <code>app_simple.py</code> để test
+            giao diện với dữ liệu mẫu.
+        </div>
+
+        <h2>📁 Cấu trúc file</h2>
+        <ul>
+            <li><code>app.py</code> - Server Flask với RankNet đầy đủ</li>
+            <li><code>app_simple.py</code> - Server Flask đơn giản để test</li>
+            <li><code>templates/index.html</code> - Giao diện web</li>
+            <li><code>start_web.bat</code> - Script khởi chạy tự động</li>
+            <li><code>requirements.txt</code> - Danh sách thư viện cần thiết</li>
+        </ul>
+
+        <h2>🎯 Demo từ khóa</h2>
+        <p>Thử tìm kiếm với các từ khóa sau:</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <span style="background: #e8f0fe; padding: 5px 10px; border-radius: 15px;">ăn</span>
+            <span style="background: #e8f0fe; padding: 5px 10px; border-radius: 15px;">học</span>
+            <span style="background: #e8f0fe; padding: 5px 10px; border-radius: 15px;">làm</span>
+            <span style="background: #e8f0fe; padding: 5px 10px; border-radius: 15px;">người</span>
+            <span style="background: #e8f0fe; padding: 5px 10px; border-radius: 15px;">nhà</span>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; padding: 20px; background: #f1f3f4; border-radius: 5px;">
+            <h3>🎉 Chúc bạn sử dụng vui vẻ!</h3>
+            <p>Nếu có thắc mắc, hãy kiểm tra console để xem log chi tiết.</p>
+        </div>
+    </div>
+</body>
+
+</html>

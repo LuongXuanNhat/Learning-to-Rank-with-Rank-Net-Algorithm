@@ -1,0 +1,802 @@
+[
+  {
+    "id": 201,
+    "value": "Cần cù bù thông minh."
+  },
+  {
+    "id": 202,
+    "value": "Chồng khôn vợ được đi hài, Vợ khôn chồng được nhiều bài cậy trông."
+  },
+  {
+    "id": 203,
+    "value": "Cơm là gạo, áo là tiền"
+  },
+  {
+    "id": 204,
+    "value": "Có nuôi con mới biết lòng cha mẹ."
+  },
+  {
+    "id": 205,
+    "value": "Con lợn có béo cỗ lòng mới ngon"
+  },
+  {
+    "id": 206,
+    "value": "Cọp chết để da, người ta chết để tiếng"
+  },
+  {
+    "id": 207,
+    "value": "Chiều chiều ra đứng ngõ sau Trông về quê mẹ ruột đau chín chiều."
+  },
+  {
+    "id": 208,
+    "value": "Chớ đi ngày bảy, chớ về ngày ba"
+  },
+  {
+    "id": 209,
+    "value": "Chớp Đông nhay nháy, gà gáy thì mưa"
+  },
+  {
+    "id": 210,
+    "value": "Con dại cái mang"
+  },
+  {
+    "id": 211,
+    "value": "Còn duyên kén cá chọn canh, Hết duyên ếch đực cua kềnh cũng vơ."
+  },
+  {
+    "id": 212,
+    "value": "Cha mẹ đòi ăn cá thu, Gả con xuống biển mù mù tăm tăm."
+  },
+  {
+    "id": 213,
+    "value": "Chữ thầy trong cõi người ta Dặm dài hoa nắng trời xa biển đầy"
+  },
+  {
+    "id": 214,
+    "value": "Công cha nghĩa mẹ"
+  },
+  {
+    "id": 215,
+    "value": "Cá chậu chim lồng."
+  },
+  {
+    "id": 216,
+    "value": "Cha mẹ giàu con có, cha mẹ khó con không"
+  },
+  {
+    "id": 217,
+    "value": "Chết giả mới biết dạ anh em"
+  },
+  {
+    "id": 218,
+    "value": "Chú khi ni, mi khi khác."
+  },
+  {
+    "id": 219,
+    "value": "Chuồng gà hướng Đông, cái lông chẳng còn"
+  },
+  {
+    "id": 220,
+    "value": "Có cha có mẹ thì hơn, Không cha không mẹ như đờn đứt dây."
+  },
+  {
+    "id": 221,
+    "value": "Con hát mẹ khen hay."
+  },
+  {
+    "id": 222,
+    "value": "Cái răng cái tóc là góc con người."
+  },
+  {
+    "id": 223,
+    "value": "Cha sinh mẹ dưỡng"
+  },
+  {
+    "id": 224,
+    "value": "Chết vinh còn hơn sống nhục."
+  },
+  {
+    "id": 225,
+    "value": "Chồng cô, vợ cậu, chồng dì Trong ba người ấy chết thì không tang."
+  },
+  {
+    "id": 226,
+    "value": "Cháo húp vòng quanh"
+  },
+  {
+    "id": 227,
+    "value": "Có trăng, phụ đèn."
+  },
+  {
+    "id": 228,
+    "value": "Con ơi nhớ lấy lời cha, Gió to sóng cả đừng qua sông Rừng."
+  },
+  {
+    "id": 229,
+    "value": "Cồng cộc bắt cá dưới bàu, Cho mẹ mày giàu, đám giỗ đầu heo."
+  },
+  {
+    "id": 230,
+    "value": "Cười người chớ có cười lâu Cười người hôm trước hôm sau người cười."
+  },
+  {
+    "id": 231,
+    "value": "Chắc rễ bền cây"
+  },
+  {
+    "id": 232,
+    "value": "Con nuôi cha không bằng bà nuôi ông"
+  },
+  {
+    "id": 233,
+    "value": "Của chồng, công vợ."
+  },
+  {
+    "id": 234,
+    "value": "Của đời cha mẹ để cho, Làm không ăn có, của kho cũng rồi."
+  },
+  {
+    "id": 235,
+    "value": "Chớp đằng đông vừa trông vừa chạy Chớp đằng nam vừa làm vừa chơi"
+  },
+  {
+    "id": 236,
+    "value": "Có cày có thóc, có học có chữ."
+  },
+  {
+    "id": 237,
+    "value": "Con hư tại mẹ, cháu hư tại bà"
+  },
+  {
+    "id": 238,
+    "value": "Chồng giận thì vợ bớt lời Cơm sôi lửa nhỏ một lời không chê"
+  },
+  {
+    "id": 239,
+    "value": "Chồng loan, vợ phượng."
+  },
+  {
+    "id": 240,
+    "value": "Chữ tín còn quý hơn vàng"
+  },
+  {
+    "id": 241,
+    "value": "Cỏ gà màu trắng, điềm nắng đã hết"
+  },
+  {
+    "id": 242,
+    "value": "Cô kia cắt cỏ một mình Cho anh cắt với chung tình làm đôi."
+  },
+  {
+    "id": 243,
+    "value": "Con có cha như nhà có nóc"
+  },
+  {
+    "id": 244,
+    "value": "Con trâu là đầu cơ nghiệp"
+  },
+  {
+    "id": 245,
+    "value": "Cá mạnh vì nước."
+  },
+  {
+    "id": 246,
+    "value": "Chiều chiều mây phủ Sơn Trà, Sóng xô Cửa Đại, trời đà chuyển mưa."
+  },
+  {
+    "id": 247,
+    "value": "Có chí làm quan, có gan làm giàu"
+  },
+  {
+    "id": 248,
+    "value": "Cơm cha áo mẹ ai ơi, Chẳng ăn thua thiệt, chẳng chơi cũng hoài."
+  },
+  {
+    "id": 249,
+    "value": "Cứ trong đạo lý luân thường, Làm người phải giữ kỷ cương làm đầu"
+  },
+  {
+    "id": 250,
+    "value": "Cau già dao sắc lại non, nạ dòng trang điểm vẫn còn như xưa"
+  },
+  {
+    "id": 251,
+    "value": "Cây đa lá rụng đầy đình, Bao nhiêu lá rụng thương mình bấy nhiêu."
+  },
+  {
+    "id": 252,
+    "value": "Cây rau má, lá rau muống, cuống rau đay"
+  },
+  {
+    "id": 253,
+    "value": "Chàng ơi phụ thiếp làm chi, Thiếp như cơm nguội đỡ khi đói lòng."
+  },
+  {
+    "id": 254,
+    "value": "Chanh chua chớ phụ, ngọt bòng chớ ham."
+  },
+  {
+    "id": 255,
+    "value": "Chê tôm lại phải ăn tôm Chê rau muống héo lại ôm dưa già."
+  },
+  {
+    "id": 256,
+    "value": "Chị em dâu như bầu nước lã"
+  },
+  {
+    "id": 257,
+    "value": "Chị em một ruột cắt ra Chị không em có cũng là như không."
+  },
+  {
+    "id": 258,
+    "value": "Chị em trên kính dưới nhường Là nhà có phúc mới đường yên vui."
+  },
+  {
+    "id": 259,
+    "value": "Chim khôn chết mệt vì mồi, Người khôn chết mệt vì lời nhỏ to."
+  },
+  {
+    "id": 260,
+    "value": "Có cứng mới đứng được đầu gió"
+  },
+  {
+    "id": 261,
+    "value": "Có ơn phải sợ, có nợ phải trả"
+  },
+  {
+    "id": 262,
+    "value": "Con có mẹ như măng ấp bẹ"
+  },
+  {
+    "id": 263,
+    "value": "Cũng thì con mẹ con cha, Cành cao vun xới, cành la bỏ liều."
+  },
+  {
+    "id": 264,
+    "value": "Cà Mau khỉ khọt trên bưng, Dưới sông sấu lội, trên rừng cọp um."
+  },
+  {
+    "id": 265,
+    "value": "Cái cò lặn lội bờ sông, Muốn lấy vợ đẹp nhưng không có tiền."
+  },
+  {
+    "id": 266,
+    "value": "Cần tái, cải nhừ"
+  },
+  {
+    "id": 267,
+    "value": "Chàng về thiếp cũng xin theo, Qua sông nỉ nước, qua đèo nỉ non."
+  },
+  {
+    "id": 268,
+    "value": "Chim đa đa đậu nhánh đa đa, Chồng gần không lấy, đi lấy chồng xa."
+  },
+  {
+    "id": 269,
+    "value": "Có làm mới có miếng ăn Không dưng ai dễ mang phần đến cho"
+  },
+  {
+    "id": 270,
+    "value": "Cóc nghiến răng, đang nắng thì mưa"
+  },
+  {
+    "id": 271,
+    "value": "Con có cha mẹ đẻ, không ai ở lỗ nẻ mà lên."
+  },
+  {
+    "id": 272,
+    "value": "Con không cha như nhà không nóc."
+  },
+  {
+    "id": 273,
+    "value": "Con lên ba, mẹ sa xương sườn"
+  },
+  {
+    "id": 274,
+    "value": "Của mình thì giữ bo bo, Của người thì thả cho bò nó ăn."
+  },
+  {
+    "id": 275,
+    "value": "Cây ngay bóng thẳng, cây cong bóng vẹo"
+  },
+  {
+    "id": 276,
+    "value": "Cha chết không lo bằng đỏ lò Tây Bắc"
+  },
+  {
+    "id": 277,
+    "value": "Chết đứng hơn sống quỳ"
+  },
+  {
+    "id": 278,
+    "value": "Chớ chê em xấu em đen, Em như nước đục, đánh phèn lại trong."
+  },
+  {
+    "id": 279,
+    "value": "Có chồng như ngựa có cương Chua cay cũng chịu, vui thương cũng nhờ."
+  },
+  {
+    "id": 280,
+    "value": "Có con mà gả chồng gần Nửa đêm đốt đuốc mang phần cho cha."
+  },
+  {
+    "id": 281,
+    "value": "Có học mới biết, có đi mới đến"
+  },
+  {
+    "id": 282,
+    "value": "Cổ Loa là đất đế kinh, Trông ra lại thấy tòa thành tiên xây."
+  },
+  {
+    "id": 283,
+    "value": "Có thân phải khổ, có khổ mới nên thân"
+  },
+  {
+    "id": 284,
+    "value": "Cơm rau nước vối, dễ tiêu lại lành."
+  },
+  {
+    "id": 285,
+    "value": "Cuộc đời như cảnh phù du, Sớm còn tối mất, công phu nhọc nhằn."
+  },
+  {
+    "id": 286,
+    "value": "Cá bống kho tiêu, cá thiều kho ngọt"
+  },
+  {
+    "id": 287,
+    "value": "Cá chẳng ăn câu thiệt là cá dại, Câu anh cầm, câu ngãi câu nhơn."
+  },
+  {
+    "id": 288,
+    "value": "Cây cao mấy trượng cũng trèo, Đường xa mấy dặm cũng theo anh về."
+  },
+  {
+    "id": 289,
+    "value": "Cây kia ăn quả ai trồng Sông kia uống nước hỏi dòng từ đâu"
+  },
+  {
+    "id": 290,
+    "value": "Cha chài, mẹ lưới, con câu Con trai tát nước, nàng dâu đi mò."
+  },
+  {
+    "id": 291,
+    "value": "Chăn kia nửa đắp nửa hờ, Gối kia nửa đợi, nửa chờ duyên em."
+  },
+  {
+    "id": 292,
+    "value": "Chợ Dinh bán áo con trai, Triều Sơn bán nón, Mậu Tài bán kim."
+  },
+  {
+    "id": 293,
+    "value": "Chó khôn tứ túc huyền đề, tai thì hơi cúp, đuôi thì cong cong"
+  },
+  {
+    "id": 294,
+    "value": "Chồng hòa, vợ thuận"
+  },
+  {
+    "id": 295,
+    "value": "Chồng tiến thì vợ phải lùi, Chồng tiến vợ tiến thì dùi phải lưng."
+  },
+  {
+    "id": 296,
+    "value": "Cỗ không rượu, kiệu không cụ"
+  },
+  {
+    "id": 297,
+    "value": "Có tiền có hậu mới hay, Có trồng cây đức mức dày nền nhân"
+  },
+  {
+    "id": 298,
+    "value": "Con học, thóc vay"
+  },
+  {
+    "id": 299,
+    "value": "Cá chuôm cá mới ở đìa, Thấy em anh mới sớm khuya chốn này."
+  },
+  {
+    "id": 300,
+    "value": "Cá tươi xem nang"
+  },
+  {
+    "id": 301,
+    "value": "Cần ăn cuống, muống ăn lá"
+  },
+  {
+    "id": 302,
+    "value": "Chăn lợn ba nằm không bằng chăn tằm một lứa"
+  },
+  {
+    "id": 303,
+    "value": "Chẳng học lấy đâu biết chữ"
+  },
+  {
+    "id": 304,
+    "value": "Cháu cậu mà lấy cháu cô, Thóc lúa đầy bồ giống má nhà ta."
+  },
+  {
+    "id": 305,
+    "value": "Chí lí như bí nấu thịt gà"
+  },
+  {
+    "id": 306,
+    "value": "Chiêm cứng ré mềm"
+  },
+  {
+    "id": 307,
+    "value": "Chờ chờ, đợi đợi, trông trông, Bao nhiêu chờ đợi mặn nồng bấy nhiêu"
+  },
+  {
+    "id": 308,
+    "value": "Chớ dung kẻ gian, chớ oan người ngay"
+  },
+  {
+    "id": 309,
+    "value": "Chớp đằng đông nước đồng tràn ngập Chớp đằng tây mua dây mà tát"
+  },
+  {
+    "id": 310,
+    "value": "Chuồng lợn hướng Đông, thổ công hướng Bắc"
+  },
+  {
+    "id": 311,
+    "value": "Cơm cá chả chim"
+  },
+  {
+    "id": 312,
+    "value": "Con khó, có lòng."
+  },
+  {
+    "id": 313,
+    "value": "Con không cha thì con trễ, cây không rễ thì cây hư"
+  },
+  {
+    "id": 314,
+    "value": "Con ơi con ngủ đi con, Con khóc làm mẹ héo hon tấc lòng."
+  },
+  {
+    "id": 315,
+    "value": "Con tài, lo láo, lo kiêu, Con ngu thì lại lo sao kịp người"
+  },
+  {
+    "id": 316,
+    "value": "Của đời ông, ăn không cũng hết"
+  },
+  {
+    "id": 317,
+    "value": "Cua tháng Tám, rạm tháng Tư, ếch tháng Ba, gà tháng Mười"
+  },
+  {
+    "id": 318,
+    "value": "Cắt dây bầu dây bí, Ai nỡ cắt dây chị, dây em."
+  },
+  {
+    "id": 319,
+    "value": "Cấy thưa thừa thóc, cấy dày cóc được ăn"
+  },
+  {
+    "id": 320,
+    "value": "Cha già tuổi đã đủ trăm, Chạnh lòng nhớ tới đằm đằm lụy sa."
+  },
+  {
+    "id": 321,
+    "value": "Chẳng chè, chẳng chén, sao say, Chẳng thương, chẳng nhớ, sao hay đi tìm?"
+  },
+  {
+    "id": 322,
+    "value": "Chết trong còn hơn sống đục"
+  },
+  {
+    "id": 323,
+    "value": "Chiều chiều ngó ngược, ngó xuôi Ngó không thấy mẹ, ngùi ngùi nhớ thương."
+  },
+  {
+    "id": 324,
+    "value": "Có con đỡ gánh đỡ gồng, Con đi lấy chồng vai gánh tay mang."
+  },
+  {
+    "id": 325,
+    "value": "Cơm cha áo mẹ ăn chơi, Bưng bát cơm người, đổ bát mồ hôi."
+  },
+  {
+    "id": 326,
+    "value": "Con giàu một bó, con khó một nén"
+  },
+  {
+    "id": 327,
+    "value": "Công ai nấy nhớ, tội ai nấy chịu"
+  },
+  {
+    "id": 328,
+    "value": "Công anh tháng đợi năm chờ Sao em rút chỉ lìa tơ cho đành?"
+  },
+  {
+    "id": 329,
+    "value": "Của Trời, Trời lại lấy đi Giương hai mắt ếch làm chi được Trời!"
+  },
+  {
+    "id": 330,
+    "value": "Cầm như bác mẹ chẳng sinh, Thì em ra ở Vạn Ninh cho rồi!"
+  },
+  {
+    "id": 331,
+    "value": "Cam sành rã rượi bờ ao, Tưởng không anh hái có rào thì thôi."
+  },
+  {
+    "id": 332,
+    "value": "Cây oằn vì bởi trái sai, Xa em vì bởi ông mai ít lời."
+  },
+  {
+    "id": 333,
+    "value": "Cha đánh chẳng lo bằng ăn no giã gạo"
+  },
+  {
+    "id": 334,
+    "value": "Chẳng nên, tình trước nghĩa sau, Có con, ta gả cho nhau, thiệt gì."
+  },
+  {
+    "id": 335,
+    "value": "Chạy xe trái luật, địa ngục chực chờ"
+  },
+  {
+    "id": 336,
+    "value": "Chiếm dụng lòng đường, khôn lường tai hoạ"
+  },
+  {
+    "id": 337,
+    "value": "Chiều chiều ra đứng bờ mương, Bên tình bên hiếu, biết thương bên nào."
+  },
+  {
+    "id": 338,
+    "value": "Chớp thừng chớp chão, chẳng bão thì mưa"
+  },
+  {
+    "id": 339,
+    "value": "Có anh có chị mới hay, Không anh không chị như cây một mình."
+  },
+  {
+    "id": 340,
+    "value": "Có chồng mà chẳng có con Khác gì hoa nở trên non một mình."
+  },
+  {
+    "id": 341,
+    "value": "Có con không dạy để vậy mà nuôi"
+  },
+  {
+    "id": 342,
+    "value": "Có ta thì nói với ta, Không ta thời lại trăng hoa với người."
+  },
+  {
+    "id": 343,
+    "value": "Con ai là chẳng giống cha, Cháu ai là chẳng giống bà giống ông."
+  },
+  {
+    "id": 344,
+    "value": "Con ai người ấy xót."
+  },
+  {
+    "id": 345,
+    "value": "Con cậu, cậy nuôi thầy cho, Cháu cậu, cậu bắt chăn bò, chăn trâu."
+  },
+  {
+    "id": 346,
+    "value": "Công em gánh gạch xây tường Mà em chẳng được thắp hương chùa này."
+  },
+  {
+    "id": 347,
+    "value": "Của như non, ăn mòn cũng hết"
+  },
+  {
+    "id": 348,
+    "value": "Cái bống mặc xống ngang chân, Lấy chồng kẻ chợ cho gần xem voi."
+  },
+  {
+    "id": 349,
+    "value": "Căn duyên chàng đó hỡi trời, Gió Nam phảng phất mát rồi lại không!"
+  },
+  {
+    "id": 350,
+    "value": "Câu cá cá chẳng ăn mồi, Đừng câu mà mệt, đừng ngồi mà trưa."
+  },
+  {
+    "id": 351,
+    "value": "Cau già quá lứa bán buôn, Em già quá lứa, có buồn không em?"
+  },
+  {
+    "id": 352,
+    "value": "Chẳng yêu nhau được thì thôi Xin chàng đừng tẩy nước vôi mà nồng"
+  },
+  {
+    "id": 353,
+    "value": "Chèo mau cho thiếp gặp chàng, Hai ta hiệp lại cho thành một đôi."
+  },
+  {
+    "id": 354,
+    "value": "Chín gang trâu cười, mười gang trâu khóc"
+  },
+  {
+    "id": 355,
+    "value": "Chở ẩu chở bừa, người ưa bị phạt"
+  },
+  {
+    "id": 356,
+    "value": "Con giữ cha, gà giữ ổ"
+  },
+  {
+    "id": 357,
+    "value": "Con ơi ham học chớ đùa Bữa mô ngày Tết thỉnh bùa thầy đeo"
+  },
+  {
+    "id": 358,
+    "value": "Đêm tháng Năm chưa nằm đã sáng"
+  },
+  {
+    "id": 359,
+    "value": "Đi khắp thế gian không ai tốt bằng Mẹ, Gánh nặng cuộc đời không ai khổ bằng Cha."
+  },
+  {
+    "id": 360,
+    "value": "Dạy con từ thuở còn thơ, Dạy vợ từ thuở bơ vơ mới về."
+  },
+  {
+    "id": 361,
+    "value": "Đồng Đăng có phố Kỳ Lừa Có nàng Tô Thị, có chùa Tam Thanh."
+  },
+  {
+    "id": 362,
+    "value": "Đường vô xứ Nghệ quanh quanh, Non xanh nước biếc như tranh họa đồ."
+  },
+  {
+    "id": 363,
+    "value": "Dù ai nói ngả nói nghiêng. Lòng ta vẫn vững như kiềng ba chân."
+  },
+  {
+    "id": 364,
+    "value": "Đói cho sạch, rách cho thơm"
+  },
+  {
+    "id": 365,
+    "value": "Đồng Tháp Mười cò bay thẳng cánh, Nước Tháp Mười lóng lánh cá tôm."
+  },
+  {
+    "id": 366,
+    "value": "Đời vua Thái Tổ, Thái Tông Thóc lúa đầy đồng, trâu chẳng buồn ăn"
+  },
+  {
+    "id": 367,
+    "value": "Đi một ngày đàng, học một sàng khôn"
+  },
+  {
+    "id": 368,
+    "value": "Được mùa cau, đau mùa lúa"
+  },
+  {
+    "id": 369,
+    "value": "Đêm đêm con thắp đèn trời Cầu cho cha mẹ sống đời với con"
+  },
+  {
+    "id": 370,
+    "value": "Đố ai đếm được vì sao Đố ai đếm được công lao mẹ già."
+  },
+  {
+    "id": 371,
+    "value": "Dâu là con, rể là khách"
+  },
+  {
+    "id": 372,
+    "value": "Đời cha ăn mặn, đời con khát nước"
+  },
+  {
+    "id": 373,
+    "value": "Dốt đến đâu học lâu cũng biết"
+  },
+  {
+    "id": 374,
+    "value": "Đổi trắng thay đen."
+  },
+  {
+    "id": 375,
+    "value": "Dao năng liếc thì sắc, người năng chào thì quen"
+  },
+  {
+    "id": 376,
+    "value": "Dâu dữ mất họ, chó dữ mất láng giềng"
+  },
+  {
+    "id": 377,
+    "value": "Đoàn kết thì sống, chia rẽ thì chết"
+  },
+  {
+    "id": 378,
+    "value": "Dứa đằng đít, mít đằng cuống."
+  },
+  {
+    "id": 379,
+    "value": "Đi đâu cho thiếp theo cùng Đói no thiếp chịu, lạnh lùng thiếp cam."
+  },
+  {
+    "id": 380,
+    "value": "Đói lòng ăn hạt chà là Để cơm nuôi mẹ, mẹ già yếu răng"
+  },
+  {
+    "id": 381,
+    "value": "Đừng tham của rẻ của ôi, Những của đầy nồi là của chẳng ngon."
+  },
+  {
+    "id": 382,
+    "value": "Đi hỏi già, về nhà hỏi trẻ"
+  },
+  {
+    "id": 383,
+    "value": "Dao có mài mới sắc, người có học mới nên."
+  },
+  {
+    "id": 384,
+    "value": "Đứt gánh giữa đường."
+  },
+  {
+    "id": 385,
+    "value": "Dốt đặc còn hơn chữ lỏng"
+  },
+  {
+    "id": 386,
+    "value": "Dạy con từ thuở tiểu sinh Gần thầy gần bạn tập tành lễ nghi"
+  },
+  {
+    "id": 387,
+    "value": "Đài Nghiên, Tháp Bút chưa mòn, Hỏi ai gây dựng nên non nước này?"
+  },
+  {
+    "id": 388,
+    "value": "Đi mô cũng nhớ quê mình, Nhớ Hương Giang gió mát, nhớ Ngự Bình trăng thanh."
+  },
+  {
+    "id": 389,
+    "value": "Đói thì đầu gối phải bò Cái chân hay chạy, cái giò hay đi."
+  },
+  {
+    "id": 390,
+    "value": "Đầu năm sương muối, cuối năm gió nồm"
+  },
+  {
+    "id": 391,
+    "value": "Dâu hiền hơn con gái, rể hiền hơn con trai."
+  },
+  {
+    "id": 392,
+    "value": "Đàn ông đóng khố đuôi lươn, Đàn bà mặc yếm hở lườn mới xinh."
+  },
+  {
+    "id": 393,
+    "value": "Đạo vợ, nghĩa chồng."
+  },
+  {
+    "id": 394,
+    "value": "Đầu năm ăn quả thanh yên, Cuối năm ăn bưởi cho nên đèo bòng."
+  },
+  {
+    "id": 395,
+    "value": "Đậu ra hoa, thì ta vun gốc"
+  },
+  {
+    "id": 396,
+    "value": "Đẻ con chẳng dạy chẳng răn, Thà rằng nuôi lợn mà ăn lấy lòng"
+  },
+  {
+    "id": 397,
+    "value": "Đi chơi bốn bề chỉnh chu, Trở về xó bếp chuột chù gặm chân."
+  },
+  {
+    "id": 398,
+    "value": "Đời cha đi hái hoa người, Đời con phải trả nợ đời cho cha."
+  },
+  {
+    "id": 399,
+    "value": "Đom đóm bay ra, trồng cà tra đỗ"
+  },
+  {
+    "id": 400,
+    "value": "Đông Thành là mẹ là cha, Đói cơm, rách áo thì ra Đông Thành."
+  }
+]

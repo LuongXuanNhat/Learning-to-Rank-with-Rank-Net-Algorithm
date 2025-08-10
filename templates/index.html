@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm kiếm Ca dao - Tục ngữ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .header {
+            background-color: #4285f4;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .search-container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .search-form {
+            display: flex;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 2px 5px 1px rgba(64, 60, 67, .16);
+            padding: 5px;
+            margin-bottom: 30px;
+        }
+
+        .search-input {
+            flex: 1;
+            border: none;
+            outline: none;
+            padding: 15px 20px;
+            font-size: 16px;
+            border-radius: 24px;
+        }
+
+        .search-button {
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .search-button:hover {
+            background-color: #3367d6;
+        }
+
+        .search-button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .results-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .results-info {
+            color: #70757a;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .result-item {
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            padding: 20px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s;
+        }
+
+        .result-item:hover {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .result-score {
+            display: inline-block;
+            background-color: #e8f0fe;
+            color: #1a73e8;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .result-content {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #202124;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .loading-spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+
+        .no-results h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .error-message {
+            background-color: #fce8e6;
+            color: #d93025;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .example-queries {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .example-queries h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .example-queries .query-tag {
+            display: inline-block;
+            background-color: #f1f3f4;
+            color: #3c4043;
+            padding: 8px 12px;
+            margin: 5px 5px 5px 0;
+            border-radius: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .example-queries .query-tag:hover {
+            background-color: #e8eaed;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .search-container,
+            .results-container {
+                padding: 0 15px;
+            }
+
+            .result-item {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>🔍 Tìm kiếm Ca dao - Tục ngữ</h1>
+        <p>Hệ thống tìm kiếm và xếp hạng với thuật toán RankNet</p>
+    </div>
+
+    <div class="search-container">
+        <form class="search-form" id="searchForm">
+            <input type="text" class="search-input" id="searchInput" placeholder="Nhập từ khóa tìm kiếm..."
+                autocomplete="off">
+            <button type="submit" class="search-button" id="searchButton">
+                Tìm kiếm
+            </button>
+        </form>
+
+        <div class="example-queries">
+            <h3>Gợi ý tìm kiếm:</h3>
+            <span class="query-tag" onclick="searchExample('anh')">anh</span>
+            <span class="query-tag" onclick="searchExample('em')">em</span>
+            <span class="query-tag" onclick="searchExample('anh em')">anh em</span>
+            <span class="query-tag" onclick="searchExample('người')">người</span>
+            <span class="query-tag" onclick="searchExample('nhà')">nhà</span>
+            <span class="query-tag" onclick="searchExample('quả cây')">quả cây</span>
+        </div>
+    </div>
+
+    <div class="results-container">
+        <div id="resultsInfo" class="results-info" style="display: none;"></div>
+        <div id="loadingDiv" class="loading" style="display: none;">
+            <div class="loading-spinner"></div>
+            <p>Đang tìm kiếm...</p>
+        </div>
+        <div id="resultsDiv"></div>
+        <div id="errorDiv" class="error-message" style="display: none;"></div>
+    </div>
+
+    <script>
+        const searchForm = document.getElementById('searchForm');
+        const searchInput = document.getElementById('searchInput');
+        const searchButton = document.getElementById('searchButton');
+        const loadingDiv = document.getElementById('loadingDiv');
+        const resultsDiv = document.getElementById('resultsDiv');
+        const resultsInfo = document.getElementById('resultsInfo');
+        const errorDiv = document.getElementById('errorDiv');
+
+        searchForm.addEventListener('submit', function (e)
+        {
+            e.preventDefault();
+            const query = searchInput.value.trim();
+            if (query)
+            {
+                performSearch(query);
+            }
+        });
+
+        function searchExample(query)
+        {
+            searchInput.value = query;
+            performSearch(query);
+        }
+
+        async function performSearch(query)
+        {
+            // Reset UI
+            hideError();
+            hideResults();
+            showLoading();
+
+            try
+            {
+                const response = await fetch('/search', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: query })
+                });
+
+                if (!response.ok)
+                {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                displayResults(data.results, query, data.total_time);
+
+            } catch (error)
+            {
+                console.error('Error:', error);
+                showError('Có lỗi xảy ra khi tìm kiếm. Vui lòng thử lại.');
+            } finally
+            {
+                hideLoading();
+            }
+        }
+
+        function displayResults(results, query, searchTime)
+        {
+            resultsDiv.innerHTML = '';
+
+            if (results.length === 0)
+            {
+                resultsDiv.innerHTML = `
+                    <div class="no-results">
+                        <h3>Không tìm thấy kết quả</h3>
+                        <p>Không có ca dao, tục ngữ nào chứa từ khóa "<strong>${query}</strong>"</p>
+                        <p>Hãy thử với từ khóa khác.</p>
+                    </div>
+                `;
+                resultsInfo.style.display = 'none';
+                return;
+            }
+
+            // Show results info
+            resultsInfo.innerHTML = `Tìm thấy ${results.length} kết quả cho "<strong>${query}</strong>" (${searchTime}s)`;
+            resultsInfo.style.display = 'block';
+
+            // Display results
+            results.forEach((result, index) =>
+            {
+                const resultItem = document.createElement('div');
+                resultItem.className = 'result-item';
+
+                resultItem.innerHTML = `
+                    <div class="result-score">
+                        Điểm số: ${result.score.toFixed(4)}
+                        <span style="margin-left: 10px; font-size: 11px; opacity: 0.7;">
+                            #${index + 1}
+                        </span>
+                    </div>
+                    <div class="result-content">${highlightQuery(result.content, query)}</div>
+                `;
+
+                resultsDiv.appendChild(resultItem);
+            });
+        }
+
+        function highlightQuery(text, query)
+        {
+            const regex = new RegExp(`(${query})`, 'gi');
+            return text.replace(regex, '<mark style="background-color: #fff3cd; padding: 2px 4px; border-radius: 3px;">$1</mark>');
+        }
+
+        function showLoading()
+        {
+            loadingDiv.style.display = 'block';
+            searchButton.disabled = true;
+            searchButton.textContent = 'Đang tìm...';
+        }
+
+        function hideLoading()
+        {
+            loadingDiv.style.display = 'none';
+            searchButton.disabled = false;
+            searchButton.textContent = 'Tìm kiếm';
+        }
+
+        function showError(message)
+        {
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        function hideError()
+        {
+            errorDiv.style.display = 'none';
+        }
+
+        function hideResults()
+        {
+            resultsDiv.innerHTML = '';
+            resultsInfo.style.display = 'none';
+        }
+
+        // Focus on search input when page loads
+        window.addEventListener('load', function ()
+        {
+            searchInput.focus();
+        });
+    </script>
+</body>
+
+</html>
